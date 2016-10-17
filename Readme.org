@@ -1,0 +1,4 @@
+This is a repository to hold Elisp experiments, a few practice modes or whatever.
+
+All code is licensed like Emacs itself, so use it if you want but I don't think you will find too much useful here.
+
