@@ -6,5 +6,9 @@ Home page: [https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html
 
 <TAB>     - automatically indents a line in a cursor
 M-C-\     - automatically indents a region.
-C-x C-e   - evaluate last sexp. eval-last-sexp
+C-x C-e   - evaluate last sexp. eval-last-sexp.
+C-u C-x C-e - evaluate an include output in the buffer.
+
 M-x byte-compile-file
+
+(switch-to-buffer (other-buffer))
