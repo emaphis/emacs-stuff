@@ -1,0 +1,2 @@
+# Working through Chassels's "An Introduction to Programming in Emacs Lisp"
+Home page: [https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html]
