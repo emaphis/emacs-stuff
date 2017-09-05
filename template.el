@@ -1,7 +1,8 @@
 ;;; template.el -- An Elisp file template
 
 ;;; Commentary:
-;; a template file that follows Elisp conventions.
+;;  A template file that follows Elisp conventions.
+;;
 
 ;;; Code:
 
