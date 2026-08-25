@@ -1,4 +1,21 @@
 This is a repository to hold Elisp experiments, a few practice modes or whatever.
 
-All code is licensed like Emacs itself, so use it if you want but I don't think you will find too much useful here.
+Also pracrice learning a little emacs lisp
 
+# Intro - Chassel's Introduction to Programming in Emacs Lisp
+
+<https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html>
+
+,/intro/
+
+# Emacs unit testing.
+
+./unit-testing/
+
+# Protesilaos' Emacs Lisp Elements.
+
+<https://protesilaos.com/emacs/emacs-lisp-elements>
+
+./elements/
+
+All code is licensed like Emacs itself, so use it if you want but I don't think you will find too much useful here.
