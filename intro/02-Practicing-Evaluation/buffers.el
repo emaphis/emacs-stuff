@@ -5,27 +5,47 @@
 
 ;;; Code:
 
-;;; Buffer names
-(buffer-name)  ; "buffers.el"
+;; 2 Practicing Evaluation
+
+;; 2.1 Buffer names
+
+(buffer-name)
+;; "buffers.el"
+
 (buffer-file-name)
 ;; "c:/src/emacs-stuff/intro/02-Practicing-Evaluation/buffers.el"
 
-;;; Getting buffers.
-;; get current buffer object.
-(current-buffer) ; #<buffer buffers.el>
+;; 2.2 Getting Buffers.
+
+;; Return the current buffer object.
+(current-buffer)
+;; #<buffer buffers.el>
 
 ;; return last recently used buffer object
-(other-buffer) ; #<buffer notes.org>
+(other-buffer)
+;; #<buffer notes.org>
 
-;; Switching buffers.
+
+;; 2.3 Switching Buffers.
+
 (switch-to-buffer (other-buffer))
 
-;; Buffer size and location of point.
-(buffer-size) ; 582
 
-(point) ; 547 ; return the location of point
+;; 2.4 Buffer size and location of point.
 
-(point-min) ; 1
+;; Return current buffer size
+(buffer-size)
+;; 697
+
+;; return the current possition of the buffer - the location of point
+(point)
+;; 597
+
+(point-min)
+;; 1
+
+(point-max)
+;; 788
 
 
 (provide 'buffers)
